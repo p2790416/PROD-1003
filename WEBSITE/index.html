@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shamshad Portfolio</title>
+    <link rel="stylesheet" href="https://use.typekit.net/jzn4jyc.css">
+    <style>
+        h1{
+        font-family: "adobe-handwriting-ernie", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        }
+        </style>
+
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  
+ <div class="header">
+
+
+<!-- this is a flipping card from https://uiverse.io/satyamchaudharydev/tender-robin-90 -->
+    <div class="myCard">
+        <div class="innerCard">
+            <div class="frontSide">
+                <p class="title">About Me</p>
+                <p>Hover Me</p>
+            </div>
+            <div class="backSide">
+                <p class="title">Hi, I am Shamshad</p>
+                <p>I am Art Director where I do graphic design, photography, video work, editing and more. If you like my work or want to work with me please send me a message on Instagram. Based in U.A.E and Leicester.</p>
+            </div>
+        </div>
+    </div>
+<!--this is the end of the flipping card-->
+
+<p style="text-align: center; font-size: 295%; margin-top:350px;font-weight: 450;">Visual/Art Director/ Graphic designer/ Editor</H1>
+
+<!--the start of the instagram flipping card from https://uiverse.io/htwarriors108/tasty-stingray-56 -->
+    <div class="myCard">
+        <div class="innerCard">
+            <div class="frontSide">
+                <p class="title">Instagram</p> <!--changed the texts-->
+                <p>Hover Me</p>
+            </div>
+            <div class="backSide">
+                <p class="title">Follow or Message me</p>
+                <a href="https://www.instagram.com/sham.archives_/" style="font-size: x-large;">@Sham.Archives_</a>
+            </div>
+        </div>
+    </div>
+<!--this is the end of the instagram flipping card-->
+
+<!--second page -art work page-->
+</div>
+<div class="menu">
+<a href="#theFirstVideo">video</a>  
+
+</div>
+
+ <img class="homeImage" style="margin-top:90px; margin-left:37px; width: 550px;"; src="images\1.jpg" alt="the statue"> 
+ <img class="homeImage" style="margin-top:130px; width: 790px; margin-left:1090px;"; src="images\DOWNTOWN.png" alt="DOWNTOWN"> 
+ <img class="homeImage" style="margin-top:103px; margin-left:90px; width: 1250px;"; src="images\album cover.jpg" alt="Albumcover"> 
+ <img class="homeImage" style="margin-top:99px; width: 580px; margin-left: 640px;"; src="images\2.jpg" alt="the statue">
+ <img class="homeImage" style="margin-top:100px; margin-left:1719px; width: 650px;"; src="images\4.jpg" alt="the statue"> 
+ <img class="homeImage" style="margin-top:86px; width: 520px; margin-left:300px ;"; src="images\3.jpg" alt="the statue">
+ <img class="homeImage" style="margin-top:200px; margin-left:565px; width: 699px;"; src="images\5.jpg" alt="the statue"> 
+ <img class="homeImage" style="margin-top:60px; width: 750px; margin-left:990px;"; src="images\insta.jpg" alt="insta">
+ <img class="homeImage" style="margin-top:230px; margin-left:590px; width: 550px;"; src="images\6.jpg" alt="the statue"> 
+ <img class="homeImage" style="margin-top:20px; width: 750px; margin-left:1549px;"; src="images\Untitled.png" alt="untitled">
+ <img class="homeImage" style="margin-top:90px; margin-left:200px; width: 640px;"; src="images\Untitled 2.png" alt="untitled 2"> 
+ <img class="homeImage" style="margin-top:90px; width: 670px; margin-left:999px;"; src="images\WHO ME.jpg" alt="who me">
+
+
+
+ <img class="pageTitleGraphic" src="images/second page.jpg" alt="second page title graphic" />
+
+  
+</div>
+
+<!--this is the end of the art work page-->
+
+    <!--the first video name/id is theFirstVideo so when you scroll near the first video it will change the artwork image to video work image so the audience can know that they are looking at video work now -->
+<!----------------------------------------------------------The statue video----------------------------------------------------->
+    <video id="theFirstVideo" class="homeImage" controls style="width:650px; margin-top:500px; margin-left:1444px;" poster="images/4.jpg">
+        <source src="images/the statue video.mp4" type="video/mp4">
+        Sorry, your browser does not support html5 video. You can download it <a href="the statue video.mp4">here</a>
+    </video>
+<!----------------------------------------------------------Crocs Video-------------------------------------------------->
+    <video class="homeImage" controls style="width:850px;margin-top:200px; margin-left:190px;" poster="images\Crocs.png">
+        <source src="images\202312162229_V1.mp4" type="video/mp4">
+        Sorry, your browser does not support html5 video. You can download it <a href="images\202312162229_V1.mp4">here</a>
+    </video>
+<!---------------------------------------------------------London video-------------------------------------------------->
+    <video class="homeImage" controls style="width:450px; margin-top:100px; margin-left:1390px;" poster="images\london.png">
+        <source src="images\202312162229_V2.mp4" type="video/mp4">
+        Sorry, your browser does not support html5 video. You can download it <a href="images\202312162229_V2.mp4">here</a>
+    </video>
+<!---------------------------------------------------------Cinematic video------------------------------------------------>
+    <video  class="homeImage" controls style="width:450px;margin-top:149px; margin-left:200px;" poster="images\Cinematic.png">
+        <source src="images\cinematic.mov" type="video/mp4">
+        Sorry, your browser does not support html5 video. You can download it <a href="images\cinematic.mov">here</a>
+    </video>
+
+
+    <script>
+    
+    // Reads out the scroll position and stores it in the data attribute
+    // so we can use it in our stylesheets
+    const handleScroll = () => {
+        
+        if(window.scrollY>970){ //when scroll postion gets to 970  it makes the art work image visibe
+            document.querySelector('.pageTitleGraphic').classList.add('visible'); 
+        } else {
+            document.querySelector('.pageTitleGraphic').classList.remove('visible');
+        }
+
+        if(window.scrollY > document.getElementById('theFirstVideo').offsetTop - 400) { //when the scroll gets near the first video it changes the art work image to video image
+            document.querySelector('.pageTitleGraphic').setAttribute('src', 'images/second page 2.jpg'); // changes the art work image to this image the video work image
+        } else {
+            document.querySelector('.pageTitleGraphic').setAttribute('src', 'images/second page.jpg');
+        }
+    }
+
+    // Listen for new scroll events, here we debounce our `storeScroll` function
+    document.addEventListener('scroll', handleScroll); //name of the scroll
+    </script>
+
+ </div>
+
+
+
+</body>
+</html>
