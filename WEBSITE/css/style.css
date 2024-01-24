@@ -9,6 +9,7 @@ p{ /*Added my own font from Adobe Fonts*/
     font-style: normal;
 }
  
+/*this is for the home page picture and its attributes*/
 .header{
     background-color: blueviolet;
     padding:10px;
@@ -99,7 +100,7 @@ margin-right: 40px;
   }
     
   .myCard:hover .innerCard {
-    transform: rotateY(180deg);
+    transform: rotateY(180deg); /*rotates the about me so the audience see the back of the card*/
   }
   /*changed the height to 90 from 100 */
   .frontSide,
@@ -168,7 +169,7 @@ margin-right: 40px;
 
  /*******************this is the start of the instagram flipping card from https://uiverse.io/htwarriors108/tasty-stingray-56  */
 
-  .myCard {
+  .myCard { /*rotates the about me so the audience see the back of the card*/
     background-color: transparent;
     width: 290px; /*CHANGED THE WIDTH AND THE HEIGHT TO MAKE THE FLIP CARD Smaller*/
     height: 430px;
