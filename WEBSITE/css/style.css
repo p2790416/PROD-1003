@@ -58,9 +58,10 @@ position: fixed;
 top: 0;
 right:0;
 font-family: "quicksand", sans-serif;
-font-size: x-large;
+font-size: xxx-large;
 color: black;
-margin-top:50px ;
+margin-top:70px ;
+margin-right: 40px;
 }
 
 
@@ -121,12 +122,12 @@ margin-top:50px ;
   /*gradient color and effect for the front side of the flipping card*/
   .frontSide,
   .frontSide::before {
-    background: linear-gradient(43deg, rgb(2, 222, 400) 0%, rgb(20, 53, 111) 46%, rgb(0, 0, 0) 100%); /*CHANGED THE COLOR FROM PINKSH GRADIENT TO BLUEISH GRADIENT*/
+    background: linear-gradient(43deg, rgb(75, 41, 62) 0%, rgb(175, 136, 163) 46%, rgb(226, 195, 200) 100%); /*CHANGED THE COLOR FROM PINKSH GRADIENT TO pink GRADIENT*/
   }
   /*gradient color and effect for back of the card*/
   .backSide,
   .backSide::before {
-    background-image: linear-gradient(160deg, #021657 0%, rgb(107, 196, 255) 100%); /*CHANGED THE COLOR TO DIFFERENT SHADE OF BLUE*/
+    background-image: linear-gradient(160deg, #74496c 0%, rgb(177, 117, 159) 100%); /*CHANGED THE COLOR TO DIFFERENT SHADE OF pink*/
   }
   
   .backSide {
@@ -221,12 +222,12 @@ margin-top:50px ;
   /*gradient color and effect for the front side of the flipping card*/
   .frontSide,
   .frontSide::before {
-    background: linear-gradient(43deg, rgb(2, 222, 400) 0%, rgb(20, 53, 111) 46%, rgb(0, 0, 0) 100%); /*CHANGED THE COLOR FROM PINKSH GRADIENT TO BLUEISH GRADIENT*/
+    background: linear-gradient(43deg, rgb(75, 41, 62) 0%, rgb(175, 136, 163) 46%, rgb(226, 195, 200) 100%) 100%); /*CHANGED THE COLOR FROM PINKSH GRADIENT TO pink GRADIENT*/
   }
   
   .backSide,
   .backSide::before {
-    background-image: linear-gradient(160deg, #021657 0%, rgb(107, 196, 255) 100%); /*CHANGED THE COLOR TO DIFFERENT SHADE OF BLUE*/
+    background-image: linear-gradient(160deg, #74496c 0%, rgb(177, 117, 159) 100%); /*CHANGED THE COLOR TO DIFFERENT SHADE OF pink*/
   }
   
   .backSide {
