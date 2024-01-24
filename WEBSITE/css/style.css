@@ -222,7 +222,7 @@ margin-right: 40px;
   /*gradient color and effect for the front side of the flipping card*/
   .frontSide,
   .frontSide::before {
-    background: linear-gradient(43deg, rgb(75, 41, 62) 0%, rgb(175, 136, 163) 46%, rgb(226, 195, 200) 100%) 100%); /*CHANGED THE COLOR FROM PINKSH GRADIENT TO pink GRADIENT*/
+    background: linear-gradient(43deg, rgb(75, 41, 62) 0%, rgb(175, 136, 163) 46%, rgb(226, 195, 200) 100%); /*CHANGED THE COLOR FROM PINKSH GRADIENT TO pink GRADIENT*/
   }
   
   .backSide,
