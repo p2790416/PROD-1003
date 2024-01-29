@@ -71,10 +71,11 @@ margin-right: 40px;
 .myCard {
     background-color: transparent;
     width: 290px; /*CHANGED THE WIDTH AND THE HEIGHT TO MAKE THE FLIP CARD BIGGER*/
-    height: 454px;
+    height: 430px;
     perspective: 1000px;
     margin-left:100px;  /*added this so it be more on the left*/
-    margin-top:20px ; /*added this as well so it doesn't stay too at the top of the website*/
+    margin-top:3px; /*added this as well so it doesn't stay too at the top of the website*/
+   
   }
   
   .title { /* 'Hi, Shamshad and About me' characteristic and also added my own font from Adobe fonts AND CHANGED THE FONT SIZE*/
@@ -100,9 +101,9 @@ margin-right: 40px;
   }
     
   .myCard:hover .innerCard {
-    transform: rotateY(180deg); /*rotates the about me so the audience see the back of the card*/
+    transform: rotateY(180deg); /*rotates the about me card to 180 degree to create the flipping card effect so the audience see the back of the card*/
   }
-  /*changed the height to 90 from 100 */
+ 
   .frontSide,
   .backSide {
     position: absolute;
@@ -111,7 +112,7 @@ margin-right: 40px;
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    height: 90%; 
+    height: 90%;  /*changed the height to 90 from 100 */
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     border: 2px solid rgba(255, 255, 255, 0.8);
@@ -175,10 +176,11 @@ margin-right: 40px;
     height: 430px;
     perspective: 1000px;
     margin-left:100px;  /*added this so it be more on the left*/
-    margin-top:20px ; /*added this as well so it doesn't stay too at the top of the website*/
+    margin-top:3px; /*added this as well so it doesn't stay too at the top of the website*/
+    
   }
   
-  .title { /* 'Hi, Shamshad and About me' characteristic and also added my own font from Adobe fonts AND CHANGED THE FONT SIZE*/
+  .title { /* 'Hi, I am Shamshad and About me' characteristic and also added my own font from Adobe fonts AND CHANGED THE FONT SIZE*/
     font-size: 1.3em; 
     font-weight: 900;
     text-align: center;
@@ -232,7 +234,7 @@ margin-right: 40px;
   }
   
   .backSide {
-    transform: rotateY(180deg);
+    transform: rotateY(180deg); /*rotates the about me card to 180 degree to create the flipping card effect so the audience see the back of the card*/
   }
   
   .frontSide::before,
